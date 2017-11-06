@@ -1,5 +1,6 @@
-<nav>
-  <span>Mercurio Sales</span>
+<nav (click)="home()">
+  <span>{{titulo}}</span>
 </nav>
-
-<app-rodape></app-rodape>
+<section>
+  <router-outlet></router-outlet>
+</section>
